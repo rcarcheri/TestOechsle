@@ -23,7 +23,7 @@ BEGIN
             ELSE
                 BEGIN
                     INSERT INTO CITAS 
-                    VALUES (@id,@Nombre,@nombre,@Apellidos,@Fecha_nac)
+                    VALUES (@id,@Nombre,@Apellidos,@Fecha_nac)
                 END;    
         END    
     SELECT @ReturnCode as 'Resultado'
